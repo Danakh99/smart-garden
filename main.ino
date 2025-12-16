@@ -11,8 +11,8 @@
 #include "CameraWebServer.h"   // our camera init helper
 
 // ---------- WiFi ----------
-const char *ssid     = "Airbox-B261";
-const char *password = "d5n6s8X3";
+const char *ssid     = "***********";
+const char *password = "***********";
 
 // ---------- Sensors ----------
 #define DHTPIN 4
@@ -196,3 +196,4 @@ void loop() {
     updateLcd();
   }
 }
+
